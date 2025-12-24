@@ -25,5 +25,16 @@ int main() {
         printf("Esquerda \n");
     }
 
+    // movimento do cavalo
+    printf("MOVIMENTO DO CAVALO \n");
+    int i = 1;
+    while (i == 1){
+        for(int j = 1; j<=2; j++){
+            printf("Baixo \n");
+        }
+        printf("Esquerda \n");
+        i ++;
+    }
+
     return 0;
 }
